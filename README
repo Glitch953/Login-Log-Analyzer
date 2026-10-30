@@ -1,0 +1,100 @@
+# 🔐 Login Log Analyzer
+
+A Python-based cybersecurity project designed to analyze login activity logs, identify suspicious behavior, calculate login failure rates, and generate automated security reports.
+
+## 🚀 Features
+
+- **Log Parsing:** Read and process login records from text files.
+- **Data Validation:** Detect and skip invalid log entries.
+- **Login Statistics:** Count successful and failed login attempts.
+- **User Tracking:** Track login activity for individual users.
+- **Failure Rate:** Calculate the percentage of failed login attempts.
+- **Suspicious Activity Detection:** Identify users with unusually high numbers of failed login attempts.
+- **Top Suspicious Users:** Find users with the highest number of failed attempts, including ties.
+- **Automated Reports:** Export analysis results to `report.txt`.
+- **Timestamp Tracking:** Record the date and time of each analysis.
+
+## 🛠️ Technologies
+
+- Python 3
+- datetime
+- File Handling
+- Dictionaries and Lists
+
+## 📁 Project Structure
+
+```text
+Login-Log-Analyzer/
+├── main.py
+├── login_logs.txt
+├── report.txt
+└── README.md
+```
+
+## ⚙️ Installation & Usage
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/Login-Log-Analyzer.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Login-Log-Analyzer
+```
+
+### 3. Run the analyzer
+
+```bash
+python main.py
+```
+
+### 4. View the generated report
+
+After execution, the analysis report will be saved in:
+
+```text
+report.txt
+```
+
+## 📄 Log File Format
+
+The analyzer expects records in the following format:
+
+```text
+ahmad,FAILED
+sara,SUCCESS
+khaled,FAILED
+ahmad,FAILED
+```
+
+Each record contains a username and a login status separated by a comma.
+
+Supported statuses:
+
+- `SUCCESS`
+- `FAILED`
+
+## 🎯 Learning Objectives
+
+This project was developed to practice:
+
+- Python fundamentals
+- File handling and data processing
+- Loops and conditional statements
+- Dictionaries and lists
+- String manipulation
+- Basic cybersecurity concepts
+- Log analysis and reporting
+
+## ⚠️ Disclaimer
+
+This project is intended for educational purposes and analyzes sample login logs. It is not a production-grade security monitoring solution.
+
+## 👨‍💻 Author
+
+**Ahmad Ziad Al-Halwani**
+
+Interested in Cybersecurity, Python, and Software Development.
